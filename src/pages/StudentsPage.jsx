@@ -75,7 +75,7 @@ const StudentsPage = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth); 
-      window.location.href = "/login"; 
+      window.location.href = "/"; 
     } catch (error) {
       console.error("Error logging out: ", error);
     }
